@@ -936,3 +936,17 @@ footer .footer__cypyright .footer__cypyright--right a:hover {
     transform: rotate(1deg) translate(2px, 2px);
   }
 }
+@keyframes toLeftFromRight {
+  49% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  51% {
+    opacity: 1;
+  }
+}
