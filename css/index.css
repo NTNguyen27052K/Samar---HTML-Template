@@ -755,6 +755,18 @@ footer::before {
   outline: none;
   transition: all 0.5s;
 }
+
+.footer__top--right input:focus,
+.footer__top--right input:hover {
+  border-color: #f55f8d;
+}
+.footer__top--right button:hover {
+  background-position: right center;
+}
+.footer__top--right button:hover i {
+  animation: toLeftFromRight 0.5s forwards;
+  display: inline-block;
+}
 .footer__top--right button {
   padding: 20px 35px;
   font-size: 20px;
